@@ -1,0 +1,13 @@
+2024-12-29 17:14:55,638 - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "C:\Users\HGL\Desktop\Basic Windows System Scanner\main.py", line 129, in <module>
+    class SystemScannerUI(QMainWindow):
+    ...<258 lines>...
+            main()
+  File "C:\Users\HGL\Desktop\Basic Windows System Scanner\main.py", line 388, in SystemScannerUI
+    main()
+    ~~~~^^
+  File "C:\Users\HGL\Desktop\Basic Windows System Scanner\main.py", line 382, in main
+    window = SystemScannerUI()
+             ^^^^^^^^^^^^^^^
+NameError: name 'SystemScannerUI' is not defined
